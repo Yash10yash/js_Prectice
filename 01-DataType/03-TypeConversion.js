@@ -27,3 +27,5 @@ let someNumber = 14;
 let stringNumber = String(someNumber);
 console.log(typeof stringNumber); // "14"  
 console.log(stringNumber)
+
+console.log("14" + 14); // "1414" (string concatenation)
