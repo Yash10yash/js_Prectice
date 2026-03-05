@@ -11,4 +11,5 @@ greet(); // This will call the expression function and print the message to the 
 let add = function sum(a, b) {
     return a + b;
 }
-add(5, 3); // This will call the expression function and return the sum of 5 and 3.
+add(5, 3); // This will call the expression function and return the sum of 5 and 3.s
+console.log("Sum of 5 and 3:", add(5, 3)); // This will print the sum of 5 and 3 to the console.
