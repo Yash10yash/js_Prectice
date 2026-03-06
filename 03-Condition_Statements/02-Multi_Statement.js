@@ -1,5 +1,7 @@
 let marks = 85;
 
+// Multi-statement if-else ladder to determine grade based on marks
+
 if (marks >= 90) {
     console.log("Grade: +A");
 }   
@@ -15,7 +17,6 @@ else if (marks >= 60) {
 else if(marks >= 50) {
     console.log("Grade: E");
 }
-else 
-{
+else {
     console.log("Grade: F");
 }

@@ -11,4 +11,4 @@ console.log("Difference:", difference);  // 5
 console.log("Product:", product);  // 50
 console.log("Division:", Division); // 2    
 console.log("Modulus:", modulus); // 0 (remainder when 10 is divided by 5)  When a is divisible by b, then answer is 2
-console.log("Exponentiation:", exponentiation);
+console.log("Exponentiation:", exponentiation); // 100000 (10 raised to the power of 5)

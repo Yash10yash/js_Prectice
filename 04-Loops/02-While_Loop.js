@@ -1,6 +1,7 @@
 let a = 10;
 while (a > 0) {
-  //  console.log(a); 
+    // This will print the current value of a in each iteration, starting from 10 down to 1.
+  console.log(a); 
     a--; // Decrementing a by 1 in each iteration
 }
 

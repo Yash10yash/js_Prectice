@@ -12,3 +12,9 @@ const sumOfTwoNumbers = (a, b) => {
     console.log('Adding ${a} and ${b}')
     return a + b;
 }
+
+// 3. Returning an object literal
+const createPerson = (name, age) => ({
+    name: name,
+    age: age
+});

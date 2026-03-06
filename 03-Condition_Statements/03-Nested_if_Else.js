@@ -1,5 +1,6 @@
 let attandance = 75;
 let marks = 85;
+// Nested if-else statement to determine eligibility and grade based on attendance and marks
 if(attandance >= 70) {
     console.log("You are eligible to take the exam.");
     if(marks >= 90) {

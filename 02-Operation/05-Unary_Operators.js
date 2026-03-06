@@ -9,7 +9,7 @@ let unaryMinus = -x;
 console.log("Unary minus applied to x:", unaryMinus); // -10        
 // Increment operator (postfix)
 let postfixIncrement = x++; 0
-console.log("Value of x after postfix increment (x++):", postfixIncrement); // 10
+console.log("Val  ue of x after postfix increment (x++):", postfixIncrement); // 10
 console.log(x);
 // Decrement operator (postfix)
 let postfixDecrement = x--; 

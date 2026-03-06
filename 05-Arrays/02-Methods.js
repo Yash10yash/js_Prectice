@@ -30,7 +30,8 @@ let arr3 = ["Yash", "John", "Alice"];
 
 let joinedStr = arr3.join(" Gupta, ");
 console.log("Joined string:", joinedStr); // Output: "Yash Gupta, John Gupta, Alice"
-// isme last bale par " Gupta" nahi aayega kyunki wo last element hai. or ye method array ke elements ke beech hi vass add karta hai na ki end me. agar hum separator nahi denge to by default comma (,) use hota hai.
+// isme last bale par " Gupta" nahi aayega kyunki wo last element hai.
+//  or ye method array ke elements ke beech hi vass add karta hai na ki end me. agar hum separator nahi denge to by default comma (,) use hota hai.
 
 
 // Reverse method is used to reverse the order of the elements in an array. It modifies the original array.
@@ -54,3 +55,10 @@ console.log("Is 20 present in the array?", isPresent); // Output: true
 let arr7 = [10, 20, 30, 40, 50];
 let slicedArr = arr7.slice(1, 4);// access element from index 1 to index 3 (4-1) because end index is exclusive
 console.log("Sliced array:", slicedArr); // Output: [20, 30, 40]
+
+// splice method is used to add or remove elements from an array. It modifies the original array.
+let arr8 = [10, 20, 30, 40, 50];
+// Removing elements using splice
+//splice(start: number, deleteCount: number, ...items: number[])
+arr8.splice(2, 1, 1); // removes 1 element at index 2 and adds 1 at index 2
+console.log("After removing element at index 2:", arr8); // Output: [10, 20, 40, 50]
