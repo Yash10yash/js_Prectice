@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document object model 02</title>
+</head>
+<body>
+    <ul>
+        <li class="list">one</li>
+        <li class="list">two</li>
+        <li class="list">three</li>
+    </ul>
+    <script>
+      let title=   document.createElement('div');
+        title.textContent="this is title";
+        title.style.color="red";
+        title.className = "form";
+        document.body.appendChild(title);
+
+    // remove child
+    let ul = document.querySelector('ul');
+   let l =  document.querySelectorAll ('.list');
+    for(list of l){
+        ul.removeChild(list);
+    }
+    </script>
+</body>
+</html>
