@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello, Click Anywhere!</h1>
+    <p id="js"></p>
+    <button onclick="hii()" id="btn">Click Me!</button>
+
+    <script>
+        document.addEventListener('click', Hello);
+        function Hello(){
+            document.getElementById('js').innerText = "Namaste Duniya!";
+        }
+        function hii() {
+            document.getElementById('btn').innerText = "Hello World!";
+            document.getElementById('btn').style.backgroundColor = "hotpink";
+        }
+    </script>
+</body>
+</html>
