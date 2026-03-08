@@ -19,5 +19,5 @@ const sumArray = arr => {
     });
     return total;
 }
-
+console.log(sumArray(arr));
 console.log(sumArray(arr));
