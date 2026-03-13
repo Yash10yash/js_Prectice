@@ -25,3 +25,4 @@ var a = x;
     var a = 300;
  }
  console.log(a);
+ console.log("Hello buddy");
