@@ -26,3 +26,4 @@ var a = x;
  }
  console.log(a);
  console.log("Hello buddy");
+ console.log("Hello buddy");
