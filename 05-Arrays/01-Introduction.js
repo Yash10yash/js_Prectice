@@ -18,3 +18,4 @@ let arr3 = new Array(5);
 arr3 = [0, 1, 2, 3, 4];
 // Creates an array of length 5 with all elements undefined
 console.log("Array with specified length:", arr3);
+let arr3D = [[1, 2], [3, 4], [5, 6]];
