@@ -13,7 +13,7 @@ console.log("Array of strings:", arr2);
 
 let arr2D = [[1, 2], [3, 4], [5, 6]];
 console.log("2D Array:", arr2D);
-
+console.log("2D Array:", arr2D);
 let arr3 = new Array(5); 
 arr3 = [0, 1, 2, 3, 4];
 // Creates an array of length 5 with all elements undefined
