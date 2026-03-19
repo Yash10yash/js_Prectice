@@ -26,3 +26,8 @@ var a = x;
  }
  console.log(a);
 
+ console.log(a);
+
+ for(let i=0;i<10;i++) {
+    console.log(i);
+ }
